@@ -17,6 +17,12 @@ export const examples: Registry = [
     type: "registry:example",
     files: ["example/rainbow-button-demo.tsx"],
   },
+  {
+    name: "animated-hover-button-demo",
+    type: "registry:example",
+    files: ["example/animated-hover-button-demo.tsx"],
+    dependencies: ["lucide-react"],
+  },
   
 ];
 

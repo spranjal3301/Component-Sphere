@@ -53,5 +53,8 @@
     "src/scripts/**/*",
     "src/scripts/build-registry.mts", 
     "__registry__"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off"
+  }
 }

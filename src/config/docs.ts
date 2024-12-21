@@ -74,6 +74,11 @@ export const docsConfig: DashboardConfig = {
           href: "/docs/cli",
           items: [],
         },
+        {
+          title: "Contribution",
+          href: "/docs/contribution",
+          items: [],
+        },
       ],
     },
     {
@@ -131,6 +136,12 @@ export const docsConfig: DashboardConfig = {
           items: [],
           label: "",
         },
+        {
+          title: "Animated Hover Button",
+          href: `/docs/components/animated-hover-button`,
+          items: [],
+          label: "",
+        }
       ],
     },
     {

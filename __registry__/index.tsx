@@ -93,6 +93,28 @@ export const Index: Record<string, any> = {
       subcategory: "undefined",
       chunks: []
     },
+    "button-1": {
+      name: "button-1",
+      type: "registry:example",
+      registryDependencies: ["shadcn:button"],
+      files: ["src/registry/default/example/button-1.tsx"],
+      component: React.lazy(() => import("@/registry/default/example/button-1.tsx")),
+      source: "",
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
+    "button-2": {
+      name: "button-2",
+      type: "registry:example",
+      registryDependencies: ["shadcn:button"],
+      files: ["src/registry/default/example/button-2.tsx"],
+      component: React.lazy(() => import("@/registry/default/example/button-2.tsx")),
+      source: "",
+      category: "undefined",
+      subcategory: "undefined",
+      chunks: []
+    },
     "utils": {
       name: "utils",
       type: "registry:lib",

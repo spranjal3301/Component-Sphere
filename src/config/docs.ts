@@ -84,13 +84,13 @@ export const docsConfig: DashboardConfig = {
     {
       title: "Templates",
       items: [
-        {
-          title: "Portfolio",
-          href: `/docs/templates/portfolio`,
-          items: [],
-          label: "",
-          event: "template_portfolio_clicked",
-        },
+        // {
+        //   title: "Portfolio",
+        //   href: `/docs/templates/portfolio`,
+        //   items: [],
+        //   label: "",
+        //   event: "template_portfolio_clicked",
+        // },
         {
           title: "SaaS",
           href: `/docs/templates/saas`,
@@ -139,6 +139,12 @@ export const docsConfig: DashboardConfig = {
         {
           title: "Animated Hover Button",
           href: `/docs/components/animated-hover-button`,
+          items: [],
+          label: "",
+        },
+        {
+          title: "Button Collection",
+          href: `/docs/components/button-collection`,
           items: [],
           label: "",
         }

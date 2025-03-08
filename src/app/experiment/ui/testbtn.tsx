@@ -1,9 +1,11 @@
+import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { NextPage } from 'next'
+import Link from 'next/link'
 
 interface Props {}
 
-const Testbtn: NextPage<Props> = ({}) => {
+export const Testbtn: NextPage<Props> = ({}) => {
   return  <button
   className={cn(
     "px-4 py-2 rounded-md text-black dark:text-white text-center relative overflow-hidden",
@@ -19,4 +21,4 @@ const Testbtn: NextPage<Props> = ({}) => {
 </button>
 }
 
-export default Testbtn
+

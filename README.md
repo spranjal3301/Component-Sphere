@@ -2,6 +2,8 @@
 
 ComponentSphere is a collection of reusable components that you can copy and paste into your web apps. It's designed to streamline development and promote consistency across projects.
 
+![Demo Model](https://github.com/spranjal3301/Component-Sphere/blob/main/preview.png?raw=true)
+
 <video autoplay loop muted playsinline>
   <source src="https://cdn.magicui.design/bento-grid.mp4" type="video/mp4">
 </video>
